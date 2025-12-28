@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dogs N Buns - Classic American Hot Dogs in Anjeong-ri, Pyeongtaek, South Korea. Fast, fresh, 100% beef hot dogs with delicious toppings and combos.">
+    <meta name="keywords" content="hot dogs, American food, Pyeongtaek, Anjeong-ri, fast casual, restaurant">
+    <title>Dogs N Buns - Classic American Hot Dogs in Anjeong-ri</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="assets/logo.png" alt="Dogs N Buns Logo" class="logo-image">
+                    </a>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#menu" class="nav-link">Menu</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#location" class="nav-link">Location</a></li>
+                    </ul>
+                </nav>
+                
+                <a href="#menu" class="btn btn-primary btn-header">View Menu</a>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <!-- 
+                INSTRUCTIONS: Replace this placeholder with your storefront image
+                1. Create an 'assets' folder in the project root
+                2. Add your storefront image (e.g., storefront.jpg)
+                3. Update style.css .hero-image-placeholder background-image property
+            -->
+            <div class="hero-image-placeholder"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-up">Classic American Hot Dogs in Anjeong-ri</h1>
+                <p class="hero-subtitle fade-up">Fast • Fresh • 100% Beef</p>
+                <div class="hero-buttons fade-up">
+                    <a href="#menu" class="btn btn-primary btn-large">View Menu</a>
+                    <a href="#location" class="btn btn-secondary btn-large">Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            
+            <!-- Hot Dogs -->
+            <div class="menu-category fade-in">
+                <h3 class="menu-category-title">Hot Dogs</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h4 class="menu-item-name">Single Hotdog</h4>
+                        <p class="menu-item-price">₩9,000</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-name">Double Dog</h4>
+                        <p class="menu-item-desc">Two single hotdogs</p>
+                        <p class="menu-item-price">₩16,500</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-name">Waffle Fries</h4>
+                        <p class="menu-item-price">₩7,000</p>
+                    </div>
+                    <div class="menu-item">
+                        <h4 class="menu-item-name">Drink</h4>
+                        <p class="menu-item-price">₩4,000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Combos -->
+            <div class="menu-category fade-in">
+                <h3 class="menu-category-title">Combos</h3>
+                <p class="menu-category-desc">Served with waffle fries & drink</p>
+                <div class="menu-grid">
+                    <div class="menu-item menu-item-featured">
+                        <h4 class="menu-item-name">Single Hotdog Combo</h4>
+                        <p class="menu-item-price">₩16,000</p>
+                    </div>
+                    <div class="menu-item menu-item-featured">
+                        <h4 class="menu-item-name">Double Hotdog Combo</h4>
+                        <p class="menu-item-price">₩22,000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toppings -->
+            <div class="menu-category fade-in">
+                <h3 class="menu-category-title">Toppings</h3>
+                <div class="toppings-grid">
+                    <div class="toppings-group">
+                        <h4 class="toppings-group-title">Paid Toppings <span class="price-badge">₩1,500</span></h4>
+                        <div class="toppings-list">
+                            <span class="topping-item">Chili (100% Beef)</span>
+                            <span class="topping-item">Melted Cheese</span>
+                            <span class="topping-item">Grilled Onions</span>
+                            <span class="topping-item">Grilled Bell Peppers</span>
+                            <span class="topping-item">Grilled Jalapeños</span>
+                            <span class="topping-item">Bacon Bits</span>
+                        </div>
+                    </div>
+                    <div class="toppings-group">
+                        <h4 class="toppings-group-title">Free Toppings</h4>
+                        <div class="toppings-list">
+                            <span class="topping-item">Relish</span>
+                            <span class="topping-item">Diced Onions</span>
+                            <span class="topping-item">Shredded Cheese</span>
+                            <span class="topping-item">Pickled Jalapeños</span>
+                            <span class="topping-item">Sauerkraut</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sauces -->
+            <div class="menu-category fade-in">
+                <h3 class="menu-category-title">Sauces</h3>
+                <p class="menu-category-desc">FREE – Choose up to 5</p>
+                <div class="sauces-grid">
+                    <div class="sauce-group">
+                        <h4 class="sauce-group-title">Classic</h4>
+                        <div class="sauces-list">
+                            <span class="sauce-item">Ketchup</span>
+                            <span class="sauce-item">Mustard</span>
+                            <span class="sauce-item">Mayonnaise</span>
+                            <span class="sauce-item">Ranch</span>
+                        </div>
+                    </div>
+                    <div class="sauce-group">
+                        <h4 class="sauce-group-title">Spicy</h4>
+                        <div class="sauces-list">
+                            <span class="sauce-item">Sriracha</span>
+                            <span class="sauce-item">Chipotle</span>
+                            <span class="sauce-item">Ketchup Jalapeño</span>
+                            <span class="sauce-item">Buffalo Sauce</span>
+                        </div>
+                    </div>
+                    <div class="sauce-group">
+                        <h4 class="sauce-group-title">Sweet</h4>
+                        <div class="sauces-list">
+                            <span class="sauce-item">Honey Mustard</span>
+                            <span class="sauce-item">Honey BBQ</span>
+                            <span class="sauce-item">Sweet & Sour</span>
+                            <span class="sauce-item">Sweet Chili</span>
+                        </div>
+                    </div>
+                    <div class="sauce-group">
+                        <h4 class="sauce-group-title">Specialty</h4>
+                        <div class="sauces-list">
+                            <span class="sauce-item">BBQ Sauce</span>
+                            <span class="sauce-item">Chipotle Mayo</span>
+                            <span class="sauce-item">Garlic Aioli</span>
+                            <span class="sauce-item">Teriyaki Sauce</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DNB Sauce Highlight -->
+            <div class="menu-highlight fade-in">
+                <div class="highlight-icon">⭐</div>
+                <h3 class="highlight-title">TRY THE DNB SAUCE!</h3>
+                <p class="highlight-text">Our signature flavor that makes every hot dog unforgettable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2 class="section-title">About Dogs N Buns</h2>
+                    <p class="about-description">
+                        Dogs N Buns is a fast-casual American-style hot dog restaurant located in Anjeong-ri, Pyeongtaek, South Korea. We specialize in classic hot dogs, chili dogs, combo meals, fries, and drinks, offering a simple, high-quality menu in a casual, quick-service environment.
+                    </p>
+                    <p class="about-description">
+                        Whether you're a U.S. military member looking for a taste of home or a local customer craving delicious American-style hot dogs, we're here to serve you fast, fresh, and flavorful meals.
+                    </p>
+                    <div class="services-list">
+                        <h3 class="services-title">Services</h3>
+                        <ul>
+                            <li>Dine-in</li>
+                            <li>Takeout</li>
+                            <li>Limited pickup / delivery coordination</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image fade-in">
+                    <!-- 
+                        INSTRUCTIONS: Replace this placeholder with your storefront image
+                        1. Use the same image as the hero section or a different one
+                        2. Update style.css .about-image-placeholder background-image property
+                    -->
+                    <div class="about-image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location-section" id="location">
+        <div class="container">
+            <h2 class="section-title">Location & Hours</h2>
+            
+            <div class="location-content">
+                <div class="location-info fade-in">
+                    <div class="info-card">
+                        <h3 class="info-card-title">Address</h3>
+                        <div class="address-block">
+                            <p class="address-korean">경기도 평택시 팽성읍 안정순환로 19</p>
+                            <p class="address-english">19 Anjeong Sunhwan-ro, Paengseong-eup,<br>Pyeongtaek-si, Gyeonggi-do, South Korea</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3 class="info-card-title">Business Hours</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span class="hours-day">Wednesday–Thursday</span>
+                                <span class="hours-time">11:30 AM – 1:30 AM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="hours-day">Friday–Saturday</span>
+                                <span class="hours-time">7:00 PM – 3:00 AM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="hours-day">Sunday</span>
+                                <span class="hours-time">2:00 PM – 11:30 PM</span>
+                            </div>
+                            <div class="hours-item hours-closed">
+                                <span class="hours-day">Monday–Tuesday</span>
+                                <span class="hours-time">Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="https://www.google.com/maps/search/?api=1&query=19+Anjeong+Sunhwan-ro,+Paengseong-eup,+Pyeongtaek-si,+Gyeonggi-do,+South+Korea" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn btn-primary btn-large">
+                        Open in Google Maps
+                    </a>
+                </div>
+                
+                <div class="location-map fade-in">
+                    <!-- 
+                        INSTRUCTIONS: Update the iframe src with your actual Google Maps embed URL
+                        1. Go to Google Maps and search for your address
+                        2. Click "Share" > "Embed a map"
+                        3. Copy the iframe code and replace the src below
+                    -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.5!2d127.1!3d37.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDAwJzAwLjAiTiAxMjfCsDA2JzAwLjAiRQ!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Dogs N Buns Location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/logo.png" alt="Dogs N Buns Logo" class="footer-logo-image">
+                    <p class="footer-tagline">Classic American Hot Dogs in Anjeong-ri</p>
+                </div>
+                <div class="footer-info">
+                    <p class="footer-address">
+                        19 Anjeong Sunhwan-ro, Paengseong-eup,<br>
+                        Pyeongtaek-si, Gyeonggi-do, South Korea
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Dogs N Buns. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
+
